@@ -23,6 +23,8 @@ export default function FlightSearch() {
     const [results, setResults] = useState<Flight[] | null>(null);
     const [loading, setLoading] = useState(false);
     const [hasSearched, setHasSearched] = useState(false);
+    const [mockFlights, setMockFlights] = useState<string[]>([]);
+    const [showMockFlights, setShowMockFlights] = useState(false);
 
     const handleSearch = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -41,6 +43,16 @@ export default function FlightSearch() {
         } finally {
             setLoading(false);
         }
+    };
+
+    const toggleMockFlights = async () => {
+        if (!showMockFlights && mockFlights.length === 0) {
+            // Load them
+            const { getMockFlightNumbers } = await import('@/app/actions');
+            const numbers = await getMockFlightNumbers();
+            setMockFlights(numbers);
+        }
+        setShowMockFlights(!showMockFlights);
     };
 
     return (
@@ -129,6 +141,33 @@ export default function FlightSearch() {
                                 </a>
                             );
                         })}
+                    </div>
+                )}
+            </div>
+
+            <div className="mt-12 border-t border-gray-200 dark:border-gray-800 pt-6">
+                <button
+                    onClick={toggleMockFlights}
+                    className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium flex items-center gap-2"
+                >
+                    {showMockFlights ? 'Hide Available Mock Flights' : 'Show Available Mock Flights'}
+                </button>
+
+                {showMockFlights && (
+                    <div className="mt-4 flex flex-wrap gap-2 animate-fadeIn">
+                        {mockFlights.length > 0 ? (
+                            mockFlights.map(num => (
+                                <button
+                                    key={num}
+                                    onClick={() => setQuery(num)}
+                                    className="px-3 py-1 bg-gray-100 dark:bg-gray-800 hover:bg-blue-100 dark:hover:bg-blue-900/30 text-gray-700 dark:text-gray-300 hover:text-blue-700 dark:hover:text-blue-300 text-xs rounded-full transition-colors border border-transparent hover:border-blue-200 dark:hover:border-blue-800"
+                                >
+                                    {num}
+                                </button>
+                            ))
+                        ) : (
+                            <span className="text-gray-400 text-sm">Loading...</span>
+                        )}
                     </div>
                 )}
             </div>

@@ -57,3 +57,7 @@ export async function searchFlight(query: string): Promise<Flight[]> {
     flight.flightNumber.includes(normalizedQuery)
   );
 }
+
+export async function getMockFlightNumbers(): Promise<string[]> {
+  return MOCK_FLIGHTS.map((f) => f.flightNumber);
+}
