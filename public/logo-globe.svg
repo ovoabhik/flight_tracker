@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#4A00E0;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#8E2DE2;stop-opacity:1" />
+</linearGradient>
+</defs>
+<circle cx="256" cy="256" r="230" fill="url(#grad1)"/>
+<path d="M256 26C128.9 26 26 128.9 26 256S128.9 486 256 486 486 383.1 486 256 383.1 26 256 26ZM256 440C154.5 440 72 357.5 72 256S154.5 72 256 72 440 154.5 440 256 357.5 440 256 440Z" fill="white" opacity="0.2"/>
+<path d="M100 256H412" stroke="white" stroke-width="20" stroke-linecap="round" opacity="0.5"/>
+<path d="M256 100V412" stroke="white" stroke-width="20" stroke-linecap="round" opacity="0.5"/>
+<path d="M400 180C400 180 320 220 256 256C192 292 150 350 150 350" stroke="#00D2FF" stroke-width="15" stroke-linecap="round"/>
+<circle cx="400" cy="180" r="15" fill="#00D2FF"/>
+</svg>

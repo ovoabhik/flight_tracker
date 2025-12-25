@@ -1,0 +1,479 @@
+[
+  {
+    "flightNumber": "AA101",
+    "startTime": "2025-12-25T08:00:00",
+    "endTime": "2025-12-25T11:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Los Angeles (LAX)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "America/Los_Angeles"
+  },
+  {
+    "flightNumber": "BA249",
+    "startTime": "2025-12-25T14:00:00",
+    "endTime": "2025-12-25T17:30:00",
+    "startLocation": "London (LHR)",
+    "endLocation": "Rio de Janeiro (GIG)",
+    "timeZoneStart": "Europe/London",
+    "timeZoneEnd": "America/Sao_Paulo"
+  },
+  {
+    "flightNumber": "JL005",
+    "startTime": "2025-12-26T11:00:00",
+    "endTime": "2025-12-26T14:30:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Tokyo (HND)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Tokyo"
+  },
+  {
+    "flightNumber": "AF022",
+    "startTime": "2025-12-25T10:00:00",
+    "endTime": "2025-12-25T12:30:00",
+    "startLocation": "Paris (CDG)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Europe/Paris",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "LH400",
+    "startTime": "2025-12-25T11:00:00",
+    "endTime": "2025-12-25T13:45:00",
+    "startLocation": "Frankfurt (FRA)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Europe/Berlin",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "SQ026",
+    "startTime": "2025-12-26T09:00:00",
+    "endTime": "2025-12-26T15:00:00",
+    "startLocation": "Singapore (SIN)",
+    "endLocation": "Frankfurt (FRA)",
+    "timeZoneStart": "Asia/Singapore",
+    "timeZoneEnd": "Europe/Berlin"
+  },
+  {
+    "flightNumber": "CX830",
+    "startTime": "2025-12-26T14:00:00",
+    "endTime": "2025-12-26T19:00:00",
+    "startLocation": "Hong Kong (HKG)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Hong_Kong",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "EK201",
+    "startTime": "2025-12-26T08:30:00",
+    "endTime": "2025-12-26T12:45:00",
+    "startLocation": "Dubai (DXB)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Dubai",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "QR701",
+    "startTime": "2025-12-26T07:45:00",
+    "endTime": "2025-12-26T13:10:00",
+    "startLocation": "Doha (DOH)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Qatar",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "UA86",
+    "startTime": "2025-12-25T16:00:00",
+    "endTime": "2025-12-26T06:00:00",
+    "startLocation": "New York (EWR)",
+    "endLocation": "Tel Aviv (TLV)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Jerusalem"
+  },
+  {
+    "flightNumber": "DL106",
+    "startTime": "2025-12-25T19:30:00",
+    "endTime": "2025-12-26T08:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Frankfurt (FRA)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Europe/Berlin"
+  },
+  {
+    "flightNumber": "B61503",
+    "startTime": "2025-12-25T09:00:00",
+    "endTime": "2025-12-25T13:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "San Juan (SJU)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "America/Puerto_Rico"
+  },
+  {
+    "flightNumber": "AC702",
+    "startTime": "2025-12-25T07:00:00",
+    "endTime": "2025-12-25T08:30:00",
+    "startLocation": "New York (LGA)",
+    "endLocation": "Toronto (YYZ)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "America/Toronto"
+  },
+  {
+    "flightNumber": "WS1200",
+    "startTime": "2025-12-25T10:00:00",
+    "endTime": "2025-12-25T12:00:00",
+    "startLocation": "Toronto (YYZ)",
+    "endLocation": "Miami (MIA)",
+    "timeZoneStart": "America/Toronto",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "QF93",
+    "startTime": "2025-12-26T10:00:00",
+    "endTime": "2025-12-26T22:00:00",
+    "startLocation": "Melbourne (MEL)",
+    "endLocation": "Los Angeles (LAX)",
+    "timeZoneStart": "Australia/Melbourne",
+    "timeZoneEnd": "America/Los_Angeles"
+  },
+  {
+    "flightNumber": "NZ5",
+    "startTime": "2025-12-26T18:00:00",
+    "endTime": "2025-12-26T10:00:00",
+    "startLocation": "Auckland (AKL)",
+    "endLocation": "Los Angeles (LAX)",
+    "timeZoneStart": "Pacific/Auckland",
+    "timeZoneEnd": "America/Los_Angeles"
+  },
+  {
+    "flightNumber": "NH110",
+    "startTime": "2025-12-26T10:00:00",
+    "endTime": "2025-12-26T09:30:00",
+    "startLocation": "Tokyo (HND)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Tokyo",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "KE81",
+    "startTime": "2025-12-26T10:00:00",
+    "endTime": "2025-12-26T10:30:00",
+    "startLocation": "Seoul (ICN)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Seoul",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "CI12",
+    "startTime": "2025-12-26T16:00:00",
+    "endTime": "2025-12-26T18:00:00",
+    "startLocation": "Taipei (TPE)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Taipei",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "BR32",
+    "startTime": "2025-12-26T19:00:00",
+    "endTime": "2025-12-26T21:00:00",
+    "startLocation": "Taipei (TPE)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Asia/Taipei",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "LY2",
+    "startTime": "2025-12-25T19:00:00",
+    "endTime": "2025-12-26T12:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Tel Aviv (TLV)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Jerusalem"
+  },
+  {
+    "flightNumber": "VS4",
+    "startTime": "2025-12-25T18:30:00",
+    "endTime": "2025-12-26T06:30:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "London (LHR)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Europe/London"
+  },
+  {
+    "flightNumber": "AI102",
+    "startTime": "2025-12-25T14:30:00",
+    "endTime": "2025-12-26T14:30:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Delhi (DEL)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Kolkata"
+  },
+  {
+    "flightNumber": "UA929",
+    "startTime": "2025-12-25T20:00:00",
+    "endTime": "2025-12-26T07:15:00",
+    "startLocation": "London (LHR)",
+    "endLocation": "Chicago (ORD)",
+    "timeZoneStart": "Europe/London",
+    "timeZoneEnd": "America/Chicago"
+  },
+  {
+    "flightNumber": "AA86",
+    "startTime": "2025-12-25T18:00:00",
+    "endTime": "2025-12-26T09:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "London (LHR)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Europe/London"
+  },
+  {
+    "flightNumber": "LH431",
+    "startTime": "2025-12-25T16:00:00",
+    "endTime": "2025-12-26T07:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Frankfurt (FRA)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Europe/Berlin"
+  },
+  {
+    "flightNumber": "LX9",
+    "startTime": "2025-12-25T19:00:00",
+    "endTime": "2025-12-26T10:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Zurich (ZRH)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Europe/Zurich"
+  },
+  {
+    "flightNumber": "SK943",
+    "startTime": "2025-12-25T21:00:00",
+    "endTime": "2025-12-26T12:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Copenhagen (CPH)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Europe/Copenhagen"
+  },
+  {
+    "flightNumber": "TK6",
+    "startTime": "2025-12-25T21:30:00",
+    "endTime": "2025-12-26T16:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Istanbul (IST)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Europe/Istanbul"
+  },
+  {
+    "flightNumber": "EK236",
+    "startTime": "2025-12-25T20:30:00",
+    "endTime": "2025-12-26T19:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Dubai (DXB)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Asia/Dubai"
+  },
+  {
+    "flightNumber": "QR726",
+    "startTime": "2025-12-25T19:00:00",
+    "endTime": "2025-12-26T16:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Doha (DOH)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Asia/Qatar"
+  },
+  {
+    "flightNumber": "EY150",
+    "startTime": "2025-12-25T20:00:00",
+    "endTime": "2025-12-26T18:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Abu Dhabi (AUH)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Asia/Dubai"
+  },
+  {
+    "flightNumber": "ET511",
+    "startTime": "2025-12-25T09:00:00",
+    "endTime": "2025-12-26T07:00:00",
+    "startLocation": "Chicago (ORD)",
+    "endLocation": "Addis Ababa (ADD)",
+    "timeZoneStart": "America/Chicago",
+    "timeZoneEnd": "Africa/Addis_Ababa"
+  },
+  {
+    "flightNumber": "MS982",
+    "startTime": "2025-12-25T12:00:00",
+    "endTime": "2025-12-26T06:00:00",
+    "startLocation": "Washington (IAD)",
+    "endLocation": "Cairo (CAI)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Africa/Cairo"
+  },
+  {
+    "flightNumber": "AT201",
+    "startTime": "2025-12-25T20:00:00",
+    "endTime": "2025-12-26T08:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Casablanca (CMN)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Africa/Casablanca"
+  },
+  {
+    "flightNumber": "SA204",
+    "startTime": "2025-12-25T10:00:00",
+    "endTime": "2025-12-26T07:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Johannesburg (JNB)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Africa/Johannesburg"
+  },
+  {
+    "flightNumber": "KQ3",
+    "startTime": "2025-12-25T13:00:00",
+    "endTime": "2025-12-26T10:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Nairobi (NBO)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Africa/Nairobi"
+  },
+  {
+    "flightNumber": "LA8181",
+    "startTime": "2025-12-25T18:00:00",
+    "endTime": "2025-12-26T05:00:00",
+    "startLocation": "Miami (MIA)",
+    "endLocation": "Sao Paulo (GRU)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "America/Sao_Paulo"
+  },
+  {
+    "flightNumber": "AR1303",
+    "startTime": "2025-12-25T17:00:00",
+    "endTime": "2025-12-26T04:00:00",
+    "startLocation": "Miami (MIA)",
+    "endLocation": "Buenos Aires (EZE)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "America/Argentina/Buenos_Aires"
+  },
+  {
+    "flightNumber": "CM401",
+    "startTime": "2025-12-25T15:00:00",
+    "endTime": "2025-12-25T19:00:00",
+    "startLocation": "Los Angeles (LAX)",
+    "endLocation": "Panama City (PTY)",
+    "timeZoneStart": "America/Los_Angeles",
+    "timeZoneEnd": "America/Panama"
+  },
+  {
+    "flightNumber": "AM18",
+    "startTime": "2025-12-25T14:00:00",
+    "endTime": "2025-12-25T20:00:00",
+    "startLocation": "Mexico City (MEX)",
+    "endLocation": "Madrid (MAD)",
+    "timeZoneStart": "America/Mexico_City",
+    "timeZoneEnd": "Europe/Madrid"
+  },
+  {
+    "flightNumber": "IB6251",
+    "startTime": "2025-12-25T12:00:00",
+    "endTime": "2025-12-25T16:00:00",
+    "startLocation": "Madrid (MAD)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Europe/Madrid",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "TP203",
+    "startTime": "2025-12-25T11:00:00",
+    "endTime": "2025-12-25T14:00:00",
+    "startLocation": "Lisbon (LIS)",
+    "endLocation": "Newark (EWR)",
+    "timeZoneStart": "Europe/Lisbon",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "EI105",
+    "startTime": "2025-12-25T10:00:00",
+    "endTime": "2025-12-25T12:30:00",
+    "startLocation": "Dublin (DUB)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Europe/Dublin",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "FI615",
+    "startTime": "2025-12-25T15:00:00",
+    "endTime": "2025-12-25T16:00:00",
+    "startLocation": "Reykjavik (KEF)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Atlantic/Reykjavik",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "AY5",
+    "startTime": "2025-12-25T14:00:00",
+    "endTime": "2025-12-25T15:30:00",
+    "startLocation": "Helsinki (HEL)",
+    "endLocation": "New York (JFK)",
+    "timeZoneStart": "Europe/Helsinki",
+    "timeZoneEnd": "America/New_York"
+  },
+  {
+    "flightNumber": "LO26",
+    "startTime": "2025-12-25T22:00:00",
+    "endTime": "2025-12-26T12:30:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Warsaw (WAW)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Europe/Warsaw"
+  },
+  {
+    "flightNumber": "SU101",
+    "startTime": "2025-12-25T18:00:00",
+    "endTime": "2025-12-26T11:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Moscow (SVO)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Europe/Moscow"
+  },
+  {
+    "flightNumber": "CA982",
+    "startTime": "2025-12-25T15:00:00",
+    "endTime": "2025-12-26T18:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Beijing (PEK)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Shanghai"
+  },
+  {
+    "flightNumber": "MU588",
+    "startTime": "2025-12-25T16:00:00",
+    "endTime": "2025-12-26T19:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Shanghai (PVG)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Shanghai"
+  },
+  {
+    "flightNumber": "CZ300",
+    "startTime": "2025-12-25T10:00:00",
+    "endTime": "2025-12-26T15:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Guangzhou (CAN)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Shanghai"
+  },
+  {
+    "flightNumber": "PR127",
+    "startTime": "2025-12-25T23:00:00",
+    "endTime": "2025-12-27T06:00:00",
+    "startLocation": "New York (JFK)",
+    "endLocation": "Manila (MNL)",
+    "timeZoneStart": "America/New_York",
+    "timeZoneEnd": "Asia/Manila"
+  },
+  {
+    "flightNumber": "VN1",
+    "startTime": "2025-12-26T00:00:00",
+    "endTime": "2025-12-27T06:00:00",
+    "startLocation": "San Francisco (SFO)",
+    "endLocation": "Ho Chi Minh City (SGN)",
+    "timeZoneStart": "America/Los_Angeles",
+    "timeZoneEnd": "Asia/Ho_Chi_Minh"
+  }
+]
