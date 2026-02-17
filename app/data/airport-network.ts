@@ -1,0 +1,35 @@
+
+export const AIRPORT_NODES = [
+    { id: 'JFK', name: 'John F. Kennedy International Airport', country: 'USA', lat: 40.6413, lng: -73.7781, color: '#ef4444' },
+    { id: 'LHR', name: 'Heathrow Airport', country: 'UK', lat: 51.4700, lng: -0.4543, color: '#3b82f6' },
+    { id: 'DXB', name: 'Dubai International Airport', country: 'UAE', lat: 25.2532, lng: 55.3657, color: '#10b981' },
+    { id: 'HND', name: 'Haneda Airport', country: 'Japan', lat: 35.5494, lng: 139.7798, color: '#f59e0b' },
+    { id: 'CDG', name: 'Charles de Gaulle Airport', country: 'France', lat: 49.0097, lng: 2.5479, color: '#8b5cf6' },
+    { id: 'SIN', name: 'Singapore Changi Airport', country: 'Singapore', lat: 1.3644, lng: 103.9915, color: '#ec4899' },
+    { id: 'LAX', name: 'Los Angeles International Airport', country: 'USA', lat: 33.9416, lng: -118.4085, color: '#ef4444' },
+    { id: 'FRA', name: 'Frankfurt Airport', country: 'Germany', lat: 50.0379, lng: 8.5622, color: '#8b5cf6' },
+    { id: 'AMS', name: 'Schiphol Airport', country: 'Netherlands', lat: 52.3105, lng: 4.7683, color: '#8b5cf6' },
+    { id: 'SYD', name: 'Sydney Airport', country: 'Australia', lat: -33.9399, lng: 151.1753, color: '#14b8a6' },
+    { id: 'PEK', name: 'Beijing Capital International Airport', country: 'China', lat: 40.0799, lng: 116.6031, color: '#f59e0b' },
+    { id: 'IST', name: 'Istanbul Airport', country: 'Turkey', lat: 41.2753, lng: 28.7519, color: '#10b981' },
+];
+
+export const AIRPORT_LINKS = [
+    { source: 'JFK', target: 'LHR', value: 10 },
+    { source: 'JFK', target: 'LAX', value: 20 },
+    { source: 'LHR', target: 'DXB', value: 15 },
+    { source: 'DXB', target: 'HND', value: 8 },
+    { source: 'LHR', target: 'CDG', value: 12 },
+    { source: 'LHR', target: 'JFK', value: 10 },
+    { source: 'CDG', target: 'SIN', value: 7 },
+    { source: 'SIN', target: 'SYD', value: 9 },
+    { source: 'LAX', target: 'HND', value: 11 },
+    { source: 'HND', target: 'PEK', value: 14 },
+    { source: 'FRA', target: 'JFK', value: 9 },
+    { source: 'AMS', target: 'LHR', value: 13 },
+    { source: 'DXB', target: 'IST', value: 10 },
+    { source: 'IST', target: 'FRA', value: 8 },
+    { source: 'LAX', target: 'SYD', value: 6 },
+    { source: 'JFK', target: 'DXB', value: 5 },
+    { source: 'LHR', target: 'SIN', value: 9 },
+];

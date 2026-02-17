@@ -24,6 +24,32 @@ export default function Home() {
         </div>
 
         <FlightSearch />
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mt-8">
+          <a
+            href="/live-map"
+            className="group block p-6 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-blue-500 dark:hover:border-blue-500 transition-all hover:shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400">
+              Live Air Traffic ✈️
+            </h3>
+            <p className="text-sm text-gray-500 mt-2">
+              View real-time flight positions and traffic density on an interactive map.
+            </p>
+          </a>
+
+          <a
+            href="/network"
+            className="group block p-6 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-purple-500 dark:hover:border-purple-500 transition-all hover:shadow-md"
+          >
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 group-hover:text-purple-600 dark:group-hover:text-purple-400">
+              Network Graph 🌐
+            </h3>
+            <p className="text-sm text-gray-500 mt-2">
+              Explore global airport connectivity and routes visualization.
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className="mt-16 text-sm text-gray-500 text-center">
